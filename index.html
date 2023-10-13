@@ -4,23 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>snakePlay</title>
-    <style>
-      .game-body {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-      }
-      #score {
-        font-size: 90px;
-        font-family: sans-serif;
-      }
-    </style>
+    <title>Snake Play</title>
   </head>
   <body>
     <div class="game-body">
       <div id="score">0</div>
       <canvas class="gameCanvas" width="300px" height="300px"></canvas>
+      <button id="start" onclick="start()">start</button>
     </div>
     <script src="./script.js"></script>
   </body>
