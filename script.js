@@ -68,6 +68,7 @@ function didGameEnd() {
     if (snake[0].x === snake[i].x && snake[0].y === snake[i].y) return true;
     1;
   }
+
   const leftWall = snake[0].x < 0;
   const rightWall = snake[0].x > gameCanvas.width - 10;
   const topWall = snake[0].y < 0;

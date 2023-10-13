@@ -3,7 +3,7 @@ html {
   color: rgb(253, 136, 200);
 }
 
-#start {
+button {
   background: white;
   justify-content: center;
   display: flex;
